@@ -1,0 +1,70 @@
+body{
+    scroll-behavior: smooth !important;
+    background-color: rgb(233, 233, 233);
+}
+.bg-theme-color{
+    background-color: hsl(215, 60%, 48%) !important;
+    height: 50px;
+    /* display: flex;
+    align-items: center; */
+}
+.white{
+    transform: scale(1.1);
+    color: white;
+}
+.whtapp{
+    color: rgb(0, 255, 0);
+}
+.bg-primary{
+    background-color: hsl(215, 60%, 48%) !important;
+}
+
+.nav-link{
+    color: black !important;
+}
+.desh{
+    border: 2px solid green;
+    width: 50px;
+    margin: 30px 0px 10px 0px;
+    border-radius: 9px;    
+}
+.desh1{
+    border: 1px solid green;
+    width: 40px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 9px;    
+}
+.blue{
+    background-color: rgb(15, 54, 199 );
+    color: white;
+}
+.fa-cutlery{
+    transform: scale(2.3);
+}
+.g-items{
+    padding-left: 4px !important;
+}
+/* .col-lg-4{
+    border: 2px solid black;
+} */
+.grey{
+    background-color: rgb(42, 42, 42);
+}
+.size{
+    transform: scale(1.2);
+}
+#top{
+    transform: scale(2);
+    width: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+    opacity: 0.3;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+#top:hover{
+    opacity: 1;
+}
